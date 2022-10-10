@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace 'ru.synergy.androidstartproject'
-    compileSdk 30
+    compileSdk 32
 
     defaultConfig {
         applicationId "ru.synergy.androidstartproject"
@@ -26,7 +26,6 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    buildToolsVersion '30.0.3'
 }
 
 dependencies {
