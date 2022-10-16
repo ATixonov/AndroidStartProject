@@ -23,6 +23,8 @@ public class Calculator extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 calculateAnswer();
+                Intent i = new Intent(Calculator.this, MainActivity.class);
+                startActivity(i);
             }
         });
     }
