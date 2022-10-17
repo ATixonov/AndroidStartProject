@@ -7,11 +7,10 @@
     tools:context=".ToInfActivity">
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/tv1"
         android:layout_width="348dp"
         android:layout_height="474dp"
         android:gravity="center"
-        android:text="TextView"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

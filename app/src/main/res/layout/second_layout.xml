@@ -162,23 +162,24 @@
 
     <TextView
         android:id="@+id/tv"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button3"
         android:layout_alignStart="@+id/button3"
         android:layout_alignEnd="@+id/button3"
-        android:layout_marginBottom="10dp"
-        android:text="TextView" />
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp" />
 
     <EditText
         android:id="@+id/et"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/tv"
         android:layout_alignStart="@+id/button3"
         android:layout_alignEnd="@+id/button3"
         android:layout_marginStart="0dp"
         android:layout_marginEnd="0dp"
-        android:layout_marginBottom="30dp" />
+        android:layout_marginBottom="0dp" />
 
 </RelativeLayout>
